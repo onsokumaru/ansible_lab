@@ -12,5 +12,5 @@ docker run -it \
     --name ansible-control \
     --hostname control \
     --mount type=bind,source="$(pwd)"/playbooks,target=/home/ansible/playbooks \
-    ansible_ubuntu:latest
+    ansible_control:latest
 
